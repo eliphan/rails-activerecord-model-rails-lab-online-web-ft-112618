@@ -4,8 +4,8 @@ class Student < ActiveRecord::Base
     @students = Student.all
     @students.each do |student|
       student.first_name.to_s = first 
-      student.last_name.to_s = last 
-      "#{@first} #{@last}"
+    
+     
     end
   end
   
