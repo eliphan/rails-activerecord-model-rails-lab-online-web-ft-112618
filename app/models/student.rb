@@ -5,7 +5,7 @@ class Student < ActiveRecord::Base
     @students.each do |student|
       student.first_name = first 
       student.last_name = last 
-      first.to_s + last.to_s
+      "#{@first}.to_s + last.to_s"
     end
   end
   
