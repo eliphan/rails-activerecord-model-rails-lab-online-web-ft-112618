@@ -1,4 +1,4 @@
-class Student < AcitveRecord::Base 
+class Student < ActiveRecord::Base 
   
   def to_s
     
