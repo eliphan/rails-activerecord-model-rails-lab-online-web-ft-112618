@@ -4,7 +4,7 @@ class Student < ActiveRecord::Base
     @students = Student.all
     @students.each do |student|
       student.first_name.to_s
-    
+    end
   end
   
 end
